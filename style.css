@@ -1,0 +1,71 @@
+.continor {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    width: 90%;
+    background-color: aqua;
+    margin: 0 auto;
+}
+.css-selector {
+    background: linear-gradient(270deg, #f0ea18, #a9f018, #1858f0, #f01879, #3b18f0, #e1dfe9, #9b88e4, #593cc8);
+    background-size: 1600% 1600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.continor h1 {  
+    font-size: 20px;
+    color:#857A4A;
+}
+.continor .facebook {
+    font-size: 50px;
+}
+.continor .facebook i {
+    color:#0866FF ; 
+}
+
+.continor .whatsapp {
+    font-size: 50px;
+}
+.continor .whatsapp i {
+    color: #25D366;
+}
+.continor .tiktok {
+    font-size: 50px;
+}
+.continor .tiktok i {
+    color:#281115 ;
+}
+.continor .github {
+    font-size: 50px;
+}
+.continor .github i {
+    color: #1F2328;
+}
+.continor .figma {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.continor .figma i {
+    color: #757575;
+}
